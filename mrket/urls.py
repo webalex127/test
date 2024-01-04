@@ -20,5 +20,9 @@ from coffe import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index)
+    path('', views.index),
+    path('sw.js',
+        views.ServiceWorkerView.as_view(),
+        name=views.ServiceWorkerView.name,
+    ),
 ]

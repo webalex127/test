@@ -1,22 +1,25 @@
 {
-    "name": "Coffe Market",
-    "start_url": "/",
-    "scope": ".",
-    "display": "standalone",
-    "background_color": "#FFF",
-    "theme_color": "#493174",
-    "description": "Test app for Django and PWA",
-    "dir": "ltr",
-    "lang": "en-US",
-    "orientation": "portrait-primary",
-    "icons": [{
-        "src": "/static/icons/123.png",
-        "type": "image/png",
-        "sizes": "96x96",
-    "short_name": "djangopwa",
-    }, {
-        "src": "/static/icons/123.png",
-        "type": "image/png",
-        "sizes": "512x512"
-    }]
+  "name": "Coffe Market",
+  "start_url": "/",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#FFF",
+  "theme_color": "#493174",
+  "description": "Test app for Django and PWA",
+  "dir": "ltr",
+  "lang": "en-US",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/static/icons/123.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "short_name": "djangopwa"
+    },
+    {
+      "src": "/static/icons/123.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }
